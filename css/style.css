@@ -21,28 +21,26 @@
     --light: #f8f9fa;
     --dark: #343a40;
     --b:#A2A2A2;
-}
 
-.colorA{
-    color: var(--cyan);
-}
-
-.colorA:hover{
-    color: var(--secondary);
-
+    --main-white-color: white;
+  --main-black-color: black;
 }
 
 .espacio{
-    padding: 20px;
     background-color: var(--b);
 }
 
 .navbar-expand-lg{
     background-color: var(--dark);
-    padding: 10px;
+    padding: 15px;
 }
 
+
 .transition{
+        padding-left: 70px;
+        right: 0;
+        left: 0;
+        position:fixed absolute;
         color: var(--dark);
         animation-name: home;
         animation-duration: 2s;
@@ -62,6 +60,7 @@
 }
 
 .transition-2{
+    position: static;
     color: var(--dark);
     animation-name: home2;
     animation-duration: 3s;
@@ -71,7 +70,140 @@
     transform: translateX(0%);
 }
 0%{
-    transform: translateX(-100%);
+    transform: translateX(-150%);
 }
     
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.static {
+  position: static;
+}
+
+.cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-slide {
+  position: relative;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.owl-carousel .owl-slide-animated {
+  transform: translateX(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.05s;
+}
+
+.owl-carousel .owl-slide-animated.is-transitioned {
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.owl-carousel .owl-slide-title.is-transitioned {
+  transition-delay: 0.2s;
+  color: var(--main-white-color);
+}
+
+.owl-carousel .owl-slide-subtitle.is-transitioned {
+  transition-delay: 0.35s;
+}
+
+.owl-carousel .owl-slide-cta.is-transitioned {
+  transition-delay: 0.5s;
+}
+
+.owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
+  position: absolute;
+}
+
+.owl-carousel .owl-dots .owl-dot,
+.owl-carousel .owl-nav [class*="owl-"]:focus {
+  outline: none;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid var(--main-black-color);
+  transition: all 0.2s ease;
+}
+
+.owl-carousel .owl-dots .owl-dot:hover span,
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--main-black-color);
+}
+
+.owl-carousel .owl-nav {
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.owl-carousel .owl-nav svg {
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.owl-carousel .owl-nav button:hover svg {
+  opacity: 1;
+}
+
+.owl-carousel .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+}
+
+section {
+  display: none;
+}
+
+@media screen and (max-width: 575px) {
+  .owl-carousel .owl-nav {
+    top: 5%;
+  }
+  
+  .owl-carousel .owl-nav svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.colorParrafo{
+    color: var(--main-white-color);
+}
+
+
+.cyan-color{
+  color: #17a2b8;
+}
+
+.cyan-color:hover{
+  color: #6c757d;
+}
+
+.btn-outline-light:hover{
+  color: var(--blue);
+}
+
+.instagram:hover{
+  background: linear-gradient(70deg,#6f42c1, #ffc107);
+  color: var(--white);
+  border: #6f42c1;
+}
+
+.twiter:hover{
+  color: cyan;
 }
