@@ -1,1 +1,120 @@
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --b:#E1F4FF;
+    --footer:#002C6F;
+    --cyanPastel:#2BF2F5;
+    --c:#BFE9FF;
+    --font:#305C73;
+    --font-show:#3F7896;
   
+    --main-white-color: white;
+  --main-black-color: black;
+  }
+body{
+    padding:0;
+    margin:0;
+  }
+  .vid-container{
+    background-image: url(http://epet20.com.ar/assets/img/drone.jpg);
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+  }
+  .bgvid.back {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+  }
+  .inner {
+    position: absolute;
+  }
+  .inner-container{
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:calc(50vh - 200px);
+    left:calc(50vw - 200px);
+    overflow:hidden;
+  }
+  .bgvid.inner{
+    top:calc(-50vh + 200px);
+    left:calc(-50vw + 200px);
+    filter: url("data:image/svg+xml;utf9,<svg%40version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+    -webkit-filter:blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    filter:blur(10px);
+  }
+  .box{
+    border-radius: 2%;
+    position:absolute;
+    height:100%;
+    width:100%;
+    font-family:Helvetica;
+    color:#fff;
+    background:rgba(0,0,0,0.53);
+    padding:30px 0px;
+  }
+  .box h1{
+    text-align:center;
+    margin:30px 0;
+    font-size:30px;
+  }
+  .box input{
+    display:block;
+    width:300px;
+    margin:20px auto;
+    padding:15px;
+    background:rgba(0,0,0,0.1);
+    color:var(--white);
+    border:0;
+    border-radius: 10px;
+  }
+  .box input:focus,.box input:active,.box button:focus,.box button:active{
+    outline:none;
+    
+  }
+  
+  .box button{
+    background:var(--font);
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+    cursor:pointer;
+    border-radius: 2%;
+  }
+  .box button:active{
+    background:var(--secondary);
+  }
+  .box p{
+    font-size:14px;
+    text-align:center;
+  }
+  .box p span{
+    cursor:pointer;
+    color:var(--gray);
+  }
