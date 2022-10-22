@@ -222,3 +222,7 @@ section {
 .colorRedes:hover{
   color: #FFCAF6;
 }
+
+.navbar-toggler-icon{
+  color: var(--dark);
+}
