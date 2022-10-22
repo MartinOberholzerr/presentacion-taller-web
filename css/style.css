@@ -21,6 +21,7 @@
     --light: #f8f9fa;
     --dark: #343a40;
     --b:#A2A2A2;
+    --footer:#002C6F;
 
     --main-white-color: white;
   --main-black-color: black;
@@ -206,4 +207,18 @@ section {
 
 .twiter:hover{
   color: cyan;
+}
+
+.footer{
+  color: var(--light);
+  background-color: var(--footer);
+  padding: 30px;
+}
+
+.colorRedes{
+  color: var(--light);
+}
+
+.colorRedes:hover{
+  color: #FFCAF6;
 }
