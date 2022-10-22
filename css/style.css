@@ -202,7 +202,7 @@ section {
 .instagram:hover{
   background: linear-gradient(70deg,#6f42c1, #ffc107);
   color: var(--white);
-  border: #6f42c1;
+  
 }
 
 .twiter:hover{
