@@ -213,6 +213,7 @@ section {
   color: var(--light);
   background-color: var(--footer);
   padding: 30px;
+  bottom: 100%;
 }
 
 .colorRedes{
