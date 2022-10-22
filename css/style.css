@@ -236,13 +236,18 @@ color: var(--light);
 }
 
 .colorRedes:hover{
-color: #FFCAF6;
+  color: #FFCAF6;
 }
 
 .navbar-toggler-icon{
-color: var(--b);
+  color: var(--b);
 }
 
 .cyan-color{
-color: var(--light);
+  color: var(--info);
+  
+}
+
+.cyan-color:hover{
+  color: var(--light);
 }
