@@ -244,5 +244,5 @@ color: var(--b);
 }
 
 .cyan-color{
-color: #00494A;
+color: var(--light);
 }
