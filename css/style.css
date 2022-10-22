@@ -46,15 +46,6 @@
         animation-name: home;
         animation-duration: 2s;
 }
-    @keyframes home{
-    100%{
-        transform: translateY(0%);
-    }
-    0%{
-        transform: translateY(-100%);
-    }
-        
-}
 
 .transition:hover{
     color: var(--gray);
