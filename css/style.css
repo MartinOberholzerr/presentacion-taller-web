@@ -58,7 +58,9 @@ color: var(--c);
 }
 
 .navbar{
-background-color: var(--font)
+background-color: var(--font);
+position: fixed;
+z-index: 100;
 }
 
 .transition{
@@ -198,6 +200,7 @@ display: none;
 }
 
 .colorParrafo{
+  text-shadow: 3px 3px 2px black;
   color: var(--main-white-color);
 }
 
