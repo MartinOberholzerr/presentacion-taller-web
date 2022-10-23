@@ -58,20 +58,16 @@ color: var(--c);
 }
 
 .navbar{
-background-color: var(--font);
-position: fixed;
-z-index: 100;
+  background-color: var(--font);
+  position: fixed;
+  z-index: 100;
+  padding-left: 70px;
+  right: 0;
+  left: 0;
+  transition: all 1s ease;
 }
 
-.transition{
-      padding-left: 70px;
-      right: 0;
-      left: 0;
-      position:fixed absolute;
-      color: var(--b);
-}
-
-.transition:hover{
+.navbar:hover{
   color: var(--white);
 }
 
@@ -91,6 +87,9 @@ z-index: 100;
   
 }
 
+.transition-2:hover{
+  color: var(--c);
+}
 
 * {
 padding: 0;
@@ -253,4 +252,23 @@ color: var(--light);
 
 .cyan-color:hover{
   color: var(--light);
+}
+
+.bg-transparent{
+  background-color: transparent;
+  color: var(--dark);
+}
+
+.n-color-2{
+  color: var(--font);
+}
+
+.actived-2{
+  color: var(--dark);
+}
+
+@media(max-width: 990px){
+  .bg-transparent{
+    background-color: tomato;
+  }
 }
