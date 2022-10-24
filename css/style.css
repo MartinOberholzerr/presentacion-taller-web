@@ -64,7 +64,8 @@ color: var(--c);
   padding-left: 70px;
   right: 0;
   left: 0;
-  transition: all 1s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 5px black; 
 }
 
 .navbar:hover{
@@ -247,7 +248,8 @@ color: var(--light);
 
 .cyan-color{
   color: var(--info);
-  
+  text-shadow: 3px 3px 2px black;
+ 
 }
 
 .cyan-color:hover{
@@ -257,14 +259,18 @@ color: var(--light);
 .bg-transparent{
   background-color: transparent;
   color: var(--dark);
+  box-shadow: 0px 2px 5px transparent; 
+
 }
 
 .n-color-2{
   color: var(--font);
+  text-shadow: 1px 1px 1px black;
 }
 
 .actived-2{
   color: var(--dark);
+  text-shadow: 1px 1px 2px black;
 }
 
 @media(max-width: 990px){
