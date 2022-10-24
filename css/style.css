@@ -256,7 +256,7 @@ color: var(--light);
   color: var(--light);
 }
 
-.bg-transparent{
+.bg-transparente{
   background-color: transparent;
   color: var(--dark);
   box-shadow: 0px 2px 5px transparent; 
@@ -273,8 +273,29 @@ color: var(--light);
   text-shadow: 1px 1px 2px black;
 }
 
+.n-color-3{
+  color: var(--c);
+}
+
 @media(max-width: 990px){
-  .bg-transparent{
-    background-color: tomato;
-  }
+  
+
+
+.bg-transparente{
+  background-color: var(--font);
+  color: var(--dark);
+  box-shadow: none; 
+
+}
+
+.n-color-2{
+  color: var(--light);
+  text-shadow: none;
+}
+
+.actived-2{
+  color: var(--c);
+  text-shadow: none;
+}
+
 }
