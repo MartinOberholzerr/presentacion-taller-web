@@ -277,6 +277,22 @@ color: var(--light);
   color: var(--c);
 }
 
+.n-color-4{
+  text-shadow: 1px 1px 2px black;
+  color: var(--danger);
+}
+
+.btn-color-4{
+  color: var(--danger);
+  border-color: var(--danger);
+}
+
+.btn-color-4:hover{
+  color: var(--b);
+  border-color: var(--b);
+  background-color: var(--dark);
+}
+
 @media(max-width: 990px){
   
 
