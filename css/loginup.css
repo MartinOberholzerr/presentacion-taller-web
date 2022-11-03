@@ -41,17 +41,13 @@ body{
 
   .inner-container{
     width:700px;
-    height:10000px;
+    height:380%;
     position:absolute;
     top:calc(50vh - 300px);
     left:calc(50vw - 350px);
     overflow:hidden;
   }
   
-  .box img{
-    width: 400px;
-    height: auto;
-  }
   .bgvid.inner{
     top:calc(-50vh + 200px);
     left:calc(-50vw + 200px);
@@ -70,6 +66,7 @@ body{
     color:#fff;
     background:rgba(0,0,0,0.53);
     padding:30px 0px;
+
   }
   .box h1{
     text-align:center;
@@ -78,8 +75,7 @@ body{
   }
 
 
-  .box button{
-    background:var(--font);
+  .box img{
     border:0;
     color:#fff;
     padding:10px;
@@ -87,12 +83,10 @@ body{
     width:330px;
     margin:20px auto;
     display:block;
-    cursor:pointer;
-    
+    width: 400px;
+    height: auto;
   }
-  .box button:active{
-    background:var(--secondary);
-  }
+  
   .box p{
     font-size:14px;
     text-align:center;

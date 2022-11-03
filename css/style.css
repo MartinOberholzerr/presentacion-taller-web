@@ -313,7 +313,7 @@ color: var(--light);
 .footer{
   color: var(--light);
   background-color: var(--footer);
-  bottom: -100%;
+  bottom: -320%;
   padding: 40px 0;
   width: 100%;
   position: absolute;
