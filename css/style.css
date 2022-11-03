@@ -271,6 +271,10 @@ color: var(--light);
   color: var(--c);
 }
 
+.n-color-3:hover{
+  color: var(--gray);
+}
+
 .n-color-4{
   text-shadow: 1px 1px 2px black;
   color: var(--danger);
@@ -317,4 +321,7 @@ color: var(--light);
   padding: 40px 0;
   width: 100%;
   position: absolute;
+  left: 0;
+  right: 0;
 }
+
