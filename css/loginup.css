@@ -33,28 +33,24 @@
 body{
     padding:0;
     margin:0;
-  }
-  .vid-container{
     background-image: url(http://epet20.com.ar/assets/img/drone.jpg);
-    position:relative;
-    height:100vh;
-    overflow:hidden;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
   }
-  .bgvid.back {
-    position: fixed; right: 0; bottom: 0;
-    min-width: 100%; min-height: 100%;
-    width: auto; height: auto; z-index: -100;
-  }
-  .inner {
-    position: absolute;
-  }
+
   .inner-container{
-    width:400px;
-    height:400px;
+    width:700px;
+    height:10000px;
     position:absolute;
-    top:calc(50vh - 200px);
-    left:calc(50vw - 200px);
+    top:calc(50vh - 300px);
+    left:calc(50vw - 350px);
     overflow:hidden;
+  }
+  
+  .box img{
+    width: 400px;
+    height: auto;
   }
   .bgvid.inner{
     top:calc(-50vh + 200px);
@@ -66,7 +62,7 @@ body{
     filter:blur(10px);
   }
   .box{
-    border-radius: 2%;
+    border-radius: 10px;
     position:absolute;
     height:100%;
     width:100%;
@@ -80,21 +76,8 @@ body{
     margin:30px 0;
     font-size:30px;
   }
-  .box input{
-    display:block;
-    width:300px;
-    margin:20px auto;
-    padding:15px;
-    background:rgba(0,0,0,0.1);
-    color:var(--white);
-    border:0;
-    border-radius: 10px;
-  }
-  .box input:focus,.box input:active,.box button:focus,.box button:active{
-    outline:none;
-    
-  }
-  
+
+
   .box button{
     background:var(--font);
     border:0;
@@ -105,7 +88,7 @@ body{
     margin:20px auto;
     display:block;
     cursor:pointer;
-    border-radius: 2%;
+    
   }
   .box button:active{
     background:var(--secondary);
@@ -118,3 +101,8 @@ body{
     cursor:pointer;
     color:var(--gray);
   }
+
+.center {
+  left: 50%;
+  top: 50%s;
+}

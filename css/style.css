@@ -227,12 +227,6 @@ color: var(--white);
 color: cyan;
 }
 
-.footer{
-color: var(--light);
-background-color: var(--footer);
-padding: 30px;
-bottom: 100%;
-}
 
 .colorRedes{
 color: var(--light);
@@ -314,4 +308,13 @@ color: var(--light);
   text-shadow: none;
 }
 
+}
+
+.footer{
+  color: var(--light);
+  background-color: var(--footer);
+  bottom: -100%;
+  padding: 40px 0;
+  width: 100%;
+  position: absolute;
 }
