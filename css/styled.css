@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.izquierda{
+    background:#333333;
+    height: 150vh;
+    width: 50%;
+}
+.derecha{
+    background: url(../imagen/epet.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 150vh;
+    
+}
+#pantalla-dividida{
+    font-family: 'Nunito', sans-serif;
+
+    display: flex;
+    margin-bottom: 0;
+}
+.izquierda p{
+    
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #E6E6FA;
+}
+.izquierda h1{
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #E6E6FA;
+
+}
+.izquierda{
+    background:#333333;
+    height: 150vh;
+    width: 50%;
+
+}
+
+.popapo{
+    left: 0;
+    right: 0;
+    background-color: black;
+    margin: 0;
+    top: 0;
+}
